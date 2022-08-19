@@ -14,4 +14,7 @@ jobs:
       - name: Run snapshot action
         uses: mikepenz/gradle-dependency-submission@main
         with:
-          gradle-project-path: .
+          gradle-project-path: "."
+          gradle-dependency-path: "build.gradle"
+          gradle-build-module: "."
+          gradle-build-configuration: "debugCompileClasspath"
