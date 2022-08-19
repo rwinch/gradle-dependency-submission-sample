@@ -16,5 +16,5 @@ jobs:
         with:
           gradle-project-path: "."
           gradle-dependency-path: "build.gradle"
-          gradle-build-module: "."
+          gradle-build-module: ":"
           gradle-build-configuration: "debugCompileClasspath"
